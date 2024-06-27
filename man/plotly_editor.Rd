@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotly_editor.R
 \name{plotly_editor}
 \alias{plotly_editor}
-\title{Plotly Editor}
+\title{Plotly chart editor input control}
 \usage{
 plotly_editor(inputId)
 }

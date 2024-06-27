@@ -30,7 +30,6 @@ function Editor({ configuration, value, setValue }) {
     Plotly.react(configuration.plotId, newData, newLayout, config);
   };
 
-
   return (
     <PlotlyEditor
       data={data}

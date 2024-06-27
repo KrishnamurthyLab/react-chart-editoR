@@ -2,3 +2,6 @@
 
 export(plotly_editor)
 export(update_plotly_editor)
+importFrom(htmltools,htmlDependency)
+importFrom(htmltools,tags)
+importFrom(reactR,createReactShinyInput)

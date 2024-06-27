@@ -1,8 +1,9 @@
-#' @title Plotly Editor
+#' @title Plotly chart editor input control
 #'
 #' @description Create a Plotly chart editor input control.
 #'
-
+#' @importFrom reactR createReactShinyInput
+#' @importFrom htmltools htmlDependency tags
 #'
 
 #' @title plotly_editor
@@ -14,8 +15,8 @@ plotly_editor <- function(inputId) {
     htmltools::htmlDependency(
       name = "plotly_editor-input",
       version = "1.0.0",
-      src = "www/reactChartEditorTest/plotly_editor",
-      package = "reactChartEditorTest",
+      src = "www/reactcharteditor/plotly_editor",
+      package = "reactcharteditor",
       script = "plotly_editor.js"
     ),
     default = list(data = list(), layout = list()),
