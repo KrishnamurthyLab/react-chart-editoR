@@ -1,1 +1,1 @@
-# react-chart-editor-R
+# react-chart-editoR
