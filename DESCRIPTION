@@ -3,12 +3,12 @@ Title: React chart editor component for Shiny
 Version: 0.1.0
 Authors@R: 
     person(given = "Tobias", family = "Wondwossen", email = "tobyyyw@gmail.com", role = c("aut", "cre"))
-Description: React chart editor component for Shiny
-License: use_gpl3_license()
+Description: A package-wrapped react-chart-editor component for Shiny. This is useful for editing your react charts easily.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
     htmltools,
     reactR,
-    shiny
+    plotly

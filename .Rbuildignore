@@ -1,0 +1,5 @@
+^LICENSE\.md$
+^package\.json$
+^srcjs$
+^webpack\.config\.js$
+^yarn.lock$
