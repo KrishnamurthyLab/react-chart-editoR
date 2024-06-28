@@ -56,6 +56,10 @@ object-assign
     MIT License: http://getify.mit-license.org
 */
 
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
 /** @license React v16.13.1
  * react-is.production.min.js
  *

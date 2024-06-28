@@ -19,7 +19,7 @@ function Editor({ configuration, value, setValue }) {
     }
   }, [configuration.plotId]);
 
-  const config = { editable: true };
+  const config = { editable: true, modeBarButtonsToAdd: ['editBtn']};
 
   const handleUpdate = (newData, newLayout, newFrames) => {
     setData(newData);
@@ -27,7 +27,7 @@ function Editor({ configuration, value, setValue }) {
     setFrames(newFrames);
 
     // Update the existing plot
-    Plotly.react(configuration.plotId, newData, newLayout, config);
+    Plotly.react(configuration.plotId, newData, newLayout);
   };
 
   return (
