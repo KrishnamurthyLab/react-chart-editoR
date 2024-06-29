@@ -15,7 +15,7 @@ plotly_editor <- function(inputId) {
     ),
     default = list(data = list(), layout = list()),
     configuration = list(),
-    htmltools::tags$div
+    \(...) htmltools::tags$div(style = "div.fold { box-sizing: 'content-box'; }", ...)
   )
 }
 
