@@ -47,6 +47,6 @@ function Editor({ configuration, value, setValue }) {
 
 reactShinyInput(
   '.plotly_editor',
-  'reactChartEditorTest.plotly_editor',
+  'reactChartEditor.plotly_editor',
   Editor
 );
