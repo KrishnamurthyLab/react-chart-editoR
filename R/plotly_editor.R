@@ -6,7 +6,7 @@
 plotly_editor <- function(inputId) {
   reactR::createReactShinyInput(
     inputId,
-    "plotly",
+    "plotly_editor",
     htmltools::htmlDependency(
       name = "react-chart-editor",
       version = "0.46.1",
