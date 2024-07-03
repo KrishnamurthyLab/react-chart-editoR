@@ -19,7 +19,7 @@ function Editor({ configuration, value, setValue }) {
     }
   }, [configuration.plotId]);
 
-  const config = { editable: true, modeBarButtonsToAdd: ['editBtn']};
+  const config = { editable: false, modeBarButtonsToAdd: ['editBtn']};
 
   const handleUpdate = (newData, newLayout, newFrames) => {
     setData(newData);
