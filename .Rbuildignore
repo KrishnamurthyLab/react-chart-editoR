@@ -1,0 +1,8 @@
+^node_modules$
+^srcjs$
+^yarn\.lock$
+^webpack\.config\.js$
+^\.Rhistory$
+^package\.json$
+^\.DS_Store$
+^LICENSE\.md$

@@ -6,6 +6,9 @@
 \usage{
 plotly_editor(inputId)
 }
+\arguments{
+\item{inputId}{The Shiny ID of the UI component.}
+}
 \description{
 Create a Plotly chart editor input control.
 }

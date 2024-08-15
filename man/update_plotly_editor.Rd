@@ -2,10 +2,19 @@
 % Please edit documentation in R/plotly_editor.R
 \name{update_plotly_editor}
 \alias{update_plotly_editor}
-\title{update_plotly_editor}
+\title{Update a Plotly react-chart-editor UI component}
 \usage{
 update_plotly_editor(session, inputId, value, configuration = NULL)
 }
+\arguments{
+\item{session}{The Shiny session object in which the chart editor is to be updated.}
+
+\item{inputId}{The ID of the DOM object to which to pass a message.}
+
+\item{value}{A value to pass along in a message to the DOM object specified by \code{inputId}.}
+
+\item{configuration}{A configuration object for the editor component.}
+}
 \description{
-update_plotly_editor
+Update a Plotly react-chart-editor UI component
 }

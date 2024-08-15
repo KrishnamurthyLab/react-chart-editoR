@@ -1,5 +1,6 @@
 #' @title Plotly chart editor input control
 #' @description Create a Plotly chart editor input control.
+#' @param inputId The Shiny ID of the UI component.
 #' @importFrom reactR createReactShinyInput
 #' @importFrom htmltools htmlDependency tags
 #' @export
@@ -19,8 +20,12 @@ plotly_editor <- function(inputId) {
   )
 }
 
-#' @title update_plotly_editor
+#' @title Update a Plotly react-chart-editor UI component
 #' @export
+#' @param session The Shiny session object in which the chart editor is to be updated.
+#' @param inputId The ID of the DOM object to which to pass a message.
+#' @param value A value to pass along in a message to the DOM object specified by `inputId`.
+#' @param configuration A configuration object for the editor component.
 update_plotly_editor <- function(session, inputId, value, configuration = NULL) {
   message <- list(value = value)
   if (!is.null(configuration)) message$configuration <- configuration
